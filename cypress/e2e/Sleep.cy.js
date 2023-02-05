@@ -56,5 +56,180 @@ describe('template spec', () => {
 		cy.wait(500)
     cy.get('p').contains('Mental Health such as Anxiety, Depression, Bipolar Disorder, etc').click({ force: true, multiple: true });
     cy.get('p').contains('Physical Health such as Restless Leg Syndrome, ADHD, Heartburn, Pain etc').click({ force: true, multiple: true });
+    cy.get('button').contains('Continue').eq(0).click({ force: true });
+		cy.wait(500)
+    cy.get('p').contains('Sleep Terrors').click({ force: true, multiple: true });
+    cy.get('p').contains('Sleep Walking').click({ force: true, multiple: true });
+    cy.get('button').contains('Continue').eq(0).click({ force: true });
+		cy.wait(500)
+    cy.get('[type="radio"]').eq(1).check()
+    cy.get('button').contains('Continue').eq(0).click({ force: true });
+    cy.wait(500) 
+    cy.get('p').contains('Mind chatter').click({ force: true, multiple: true });
+    cy.get('p').contains('Worry').click({ force: true, multiple: true });
+    cy.get('button').contains('Continue').eq(0).click({ force: true });
+		cy.wait(500)
+    cy.get('[type="radio"]').eq(4).check()
+    cy.get('button').contains('Continue').eq(0).click({ force: true });
+    cy.wait(500)
+    cy.get('[type="radio"]').eq(0).check()
+    cy.get('button').contains('Continue').eq(0).click({ force: true });
+    cy.wait(500)  
+    cy.get('[type="radio"]').eq(0).check()
+    cy.get('button').contains('Continue').eq(0).click({ force: true });
+    cy.wait(500)  
+    cy.get('[type="radio"]').eq(0).check()
+    cy.get('button').contains('Continue').eq(0).click({ force: true });
+    cy.wait(500)  
+    cy.get('[type="radio"]').eq(1).check()
+    cy.get('button').contains('Continue').eq(0).click({ force: true });
+    cy.wait(500) 
+    cy.get('[type="radio"]').eq(4).check()
+    cy.get('button').contains('Continue').eq(0).click({ force: true });
+    cy.wait(500)
+    cy.get('[type="radio"]').eq(0).check()
+    cy.get('button').contains('Continue').eq(0).click({ force: true });
+    cy.wait(500)  
+    cy.get('[type="radio"]').eq(9).check()
+    cy.get('button').contains('Continue').eq(0).click({ force: true });
+    cy.wait(500) 
+    cy.get('[type="radio"]').eq(3).check()
+    cy.get('button').contains('Continue').eq(0).click({ force: true });
+    cy.wait(500)
+    cy.get('[type="radio"]').eq(2).check()
+    cy.get('button').contains('Continue').eq(0).click({ force: true });
+    cy.wait(500)
+    cy.get('[type="radio"]').eq(2).check()
+    cy.get('button').contains('Continue').eq(0).click({ force: true });
+    cy.wait(500)     
+    cy.get('[type="radio"]').eq(2).check()
+    cy.get('button').contains('Continue').eq(0).click({ force: true });
+    cy.wait(500)  
+    cy.get('p').contains('Hot').click({ force: true, multiple: true });
+    cy.get('button').contains('Continue').eq(0).click({ force: true });
+		cy.wait(500)
+    cy.get('p').contains('Quiet').click({ force: true, multiple: true });
+    cy.get('button').contains('Continue').eq(0).click({ force: true });
+		cy.wait(500)
+    cy.get('[type="radio"]').eq(0).check()
+    cy.get('button').contains('Continue').eq(0).click({ force: true });
+    cy.wait(500)
+    cy.get('[type="radio"]').eq(2).check()
+    cy.get('button').contains('Continue').eq(0).click({ force: true });
+    cy.wait(500)
+    cy.get('[type="radio"]').eq(2).check()
+    cy.get('button').contains('Continue').eq(0).click({ force: true });
+    cy.wait(500)
+    cy.get('p').contains('Rarely').click({ force: true, multiple: true });
+    cy.get('button').contains('Continue').eq(0).click({ force: true });
+		cy.wait(500)
+    cy.get('button').contains('Continue').click({ force: true, multiple: true });
+    cy.wait(500)
+		cy.get('button').contains('Continue').click({ force: true, multiple: true });
+    cy.wait(500)
+    cy.get('[type="radio"]').eq(2).check()
+    cy.get('button').contains('Continue').eq(0).click({ force: true });
+    cy.wait(500)
+    cy.get('[type="radio"]').eq(1).check()
+    cy.get('button').contains('Continue').eq(0).click({ force: true });
+    cy.wait(500)
+    cy.get('[type="radio"]').eq(1).check()
+    cy.get('button').contains('Continue').eq(0).click({ force: true });
+    cy.wait(500)
+    cy.get('[type="radio"]').eq(2).check()
+    cy.get('button').contains('Continue').eq(0).click({ force: true });
+    cy.wait(500)
+    cy.get('[type="radio"]').eq(3).check()
+    cy.get('button').contains('Continue').eq(0).click({ force: true });
+    cy.wait(500)
+    cy.get('p').contains('Salty').click({ force: true, multiple: true });
+    cy.get('button').contains('Continue').eq(0).click({ force: true });
+		cy.wait(500)
+    cy.get('[type="radio"]').eq(2).check()
+    cy.get('button').contains('Continue').eq(0).click({ force: true });
+    cy.wait(500)
+    cy.get('[type="radio"]').eq(1).check()
+    cy.get('button').contains('Continue').eq(0).click({ force: true });
+    cy.wait(500)
+    cy.get('[type="radio"]').eq(1).check()
+    cy.get('button').contains('Continue').eq(0).click({ force: true });
+    cy.wait(500)
+    cy.get('button').contains('Continue').click({ force: true, multiple: true });
+    cy.wait(500)
+    cy.get('[type="radio"]').eq(1).check()
+    cy.get('button').contains('Continue').eq(0).click({ force: true });
+    cy.wait(500)
+    cy.get('[type="radio"]').eq(2).check()
+    cy.get('button').contains('Continue').eq(0).click({ force: true });
+    cy.wait(500)
+    cy.get('[type="radio"]').eq(1).check()
+    cy.get('button').contains('Continue').eq(0).click({ force: true });
+    cy.wait(500)
+    cy.get('[type="radio"]').eq(1).check()
+    cy.get('button').contains('Continue').eq(0).click({ force: true });
+    cy.wait(500)
+    cy.get('[type="radio"]').eq(0).check()
+    cy.get('button').contains('Continue').eq(0).click({ force: true });
+    cy.wait(500)
+    cy.get('p').contains('Asthma').click({ force: true, multiple: true });
+    cy.get('button').contains('Continue').eq(0).click({ force: true });
+		cy.wait(500)
+    cy.get('[type="radio"]').eq(1).check()
+    cy.get('button').contains('Continue').eq(0).click({ force: true });
+    cy.wait(500)
+    cy.get('[type="radio"]').eq(1).check()
+    cy.get('button').contains('Continue').eq(0).click({ force: true });
+    cy.wait(500)
+    cy.get('[type="radio"]').eq(0).check()
+    cy.get('button').contains('Continue').eq(0).click({ force: true });
+    cy.wait(500)
+    cy.get('[type="radio"]').eq(1).check()
+    cy.get('button').contains('Continue').eq(0).click({ force: true });
+    cy.wait(500)
+    cy.get('[type="text"]').type("cat dander").type('{enter}') 
+    cy.get('button').contains('Continue').eq(0).click({ force: true });
+    cy.wait(500)
+    cy.get('[type="radio"]').eq(1).check()
+    cy.get('button').contains('Continue').eq(0).click({ force: true });
+    cy.wait(500)
+    cy.get('[type="radio"]').eq(1).check()
+    cy.get('button').contains('Continue').eq(0).click({ force: true });
+    cy.wait(500)
+    cy.get('[type="radio"]').eq(0).check()
+    cy.get('button').contains('Continue').eq(0).click({ force: true });
+    cy.wait(500)
+    cy.get('[type="radio"]').eq(1).check()
+    cy.get('button').contains('Continue').eq(0).click({ force: true });
+    cy.wait(500)
+    cy.get('[type="radio"]').eq(0).check()
+    cy.get('button').contains('Continue').eq(0).click({ force: true });
+    cy.wait(500)
+    cy.get('p').contains('Graves').click({ force: true, multiple: true });
+    cy.get('button').contains('Continue').eq(0).click({ force: true });
+		cy.wait(500)
+    cy.get('[type="radio"]').eq(2).check()
+    cy.get('button').contains('Continue').eq(0).click({ force: true });
+    cy.wait(500)
+    cy.get('[type="radio"]').eq(2).check()
+    cy.get('button').contains('Continue').eq(0).click({ force: true });
+    cy.wait(500)
+    cy.get('[type="radio"]').eq(0).check()
+    cy.get('button').contains('Continue').eq(0).click({ force: true });
+    cy.wait(500)
+    cy.get('[type="radio"]').eq(1).check()
+    cy.get('button').contains('Continue').eq(0).click({ force: true });
+    cy.wait(500)
+    cy.get('p').contains('Bone').click({ force: true, multiple: true });
+    cy.get('button').contains('Continue').eq(0).click({ force: true });
+		cy.wait(500)
+    cy.get('[type="radio"]').eq(1).check()
+    cy.get('button').contains('Continue').eq(0).click({ force: true });
+    cy.wait(500)
+    cy.get('button').contains('Continue').click({ force: true, multiple: true });
+    cy.wait(500)
+    cy.get('button').contains('Continue').click({ force: true, multiple: true });
+    cy.wait(500)
+    cy.get('button').contains('Your insights & wellness plan').click({ force: true, multiple: true });
+		cy.wait(1000)
   })
 })
